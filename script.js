@@ -1,20 +1,20 @@
 const movies = {
   Happy: [
-    { name: "Paddington 2", image: "images/paddington2.jpg", trailer: "https://www.youtube.com/watch?v=52x5HJ9H8DM" },
-    { name: "The Intouchables", image: "images/intouchables.jpg", trailer: "https://www.youtube.com/watch?v=34WIbmXkewU&t=2s" },
-    { name: "Coco", image: "images/coco.jpeg", trailer: "https://www.youtube.com/watch?v=xlnPHQ3TLX8" }
+    { name: "Paddington 2", image: "paddington2.jpg", trailer: "https://www.youtube.com/watch?v=52x5HJ9H8DM" },
+    { name: "The Intouchables", image: "intouchables.jpg", trailer: "https://www.youtube.com/watch?v=34WIbmXkewU&t=2s" },
+    { name: "Coco", image: "coco.jpeg", trailer: "https://www.youtube.com/watch?v=xlnPHQ3TLX8" }
   ],
   Sad: [
-    { name: "The Pursuit of Happyness", image: "images/pursuit.jpeg", trailer: "https://www.youtube.com/watch?v=DMOBlEcRuw8" },
-    { name: "A Star is Born", image: "images/astar.jpg", trailer: "https://www.youtube.com/watch?v=iPxGl3B2I4A" }
+    { name: "The Pursuit of Happyness", image: "pursuit.jpeg", trailer: "https://www.youtube.com/watch?v=DMOBlEcRuw8" },
+    { name: "A Star is Born", image: "astar.jpg", trailer: "https://www.youtube.com/watch?v=iPxGl3B2I4A" }
   ],
   Lazy: [
-    { name: "Zootopia", image: "images/zootopia.jpg", trailer: "https://www.youtube.com/watch?v=jWM0ct-OLsM" },
-    { name: "Shrek", image: "images/shrek.jpg", trailer: "https://www.youtube.com/watch?v=CwXOrWvPBPk" }
+    { name: "Zootopia", image: "zootopia.jpg", trailer: "https://www.youtube.com/watch?v=jWM0ct-OLsM" },
+    { name: "Shrek", image: "shrek.jpg", trailer: "https://www.youtube.com/watch?v=CwXOrWvPBPk" }
   ],
   Romantic: [
-    { name: "The Notebook", image: "images/notebook.jpeg", trailer: "https://www.youtube.com/watch?v=BjJcYdEOI0k" },
-    { name: "Pride & Prejudice", image: "images/pride.jpg", trailer: "https://www.youtube.com/watch?v=Ur_DIHs92NM" }
+    { name: "The Notebook", image: "notebook.jpeg", trailer: "https://www.youtube.com/watch?v=BjJcYdEOI0k" },
+    { name: "Pride & Prejudice", image: "pride.jpg", trailer: "https://www.youtube.com/watch?v=Ur_DIHs92NM" }
   ]
 };
 
@@ -33,3 +33,4 @@ function showMovies(mood) {
     movieDiv.appendChild(card);
   });
 }
+
