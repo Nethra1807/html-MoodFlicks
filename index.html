@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MoodFlicks 🎬</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>MoodFlicks 🎬</h1>
+    <p>Select your mood and get movie recommendations with trailers!</p>
+  </header>
+
+  <div id="mood-selector">
+    <button onclick="showMovies('Happy')">Happy</button>
+    <button onclick="showMovies('Sad')">Sad</button>
+    <button onclick="showMovies('Lazy')">Lazy</button>
+    <button onclick="showMovies('Romantic')">Romantic</button>
+  </div>
+
+  <div id="movies" class="movie-grid"></div>
+
+  <footer>
+    <p>© 2025 MoodFlicks</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
